@@ -56,6 +56,8 @@ If you're experiencing `libhostfxr` issues, please see the solutions from Micros
 
     > This assumes that you are in the directory in which you downloaded OpenTabletDriver to.
 
+    > zypper may warn you that the package isn't signed. You can either ignore or put `--no-gpg-check` before `install`.
+
 5. Refer to [this section]({% link _wiki/FAQ/Linux.md %}#autostart) for instructions on how to auto-start OpenTabletDriver on boot.
 
 ## Arch Linux {#arch}
